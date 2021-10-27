@@ -1,0 +1,6 @@
+version: '3'
+services:
+  quanti_blog_api:
+    build: .
+    ports:
+      - 8081:8081
